@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "胡鸿淼的个人主页"
+excerpt: "关于我"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,13 +10,31 @@ redirect_from:
 
  
 
-Welcome to the Socrates Lab! We are a small research team affiliated with the Computational Communication Collaboratory, School of Journalism and Communication, Nanjing University.
+大家好，我是胡鸿淼，目前是一名本科生。
 
-Github: https://github.com/socratesclub
+我关注的学习方向主要包括新闻传播、信息管理、新媒体表达与数字工具应用。希望通过课程学习与项目实践，不断提升自己的信息整理能力、内容表达能力和综合实践能力。
 
-## People
-### Directer
-- Cheng-Jun Wang https://chengjun.github.io/
+## 关于我
 
+我正在进行本科阶段的学习，平时注重将课堂知识与实际项目结合起来。在学习过程中，我对新闻传播、新媒体内容分析、信息组织与数字表达等方面有较浓厚的兴趣，也愿意主动尝试新的工具和方法，提升自己的综合素养。
 
-🖋[Revise this page](https://github.com/SocratesGroup/socratesgroup.github.io/edit/master/_pages/about.md)
+## 学习兴趣
+
+- 新闻传播
+- 信息管理
+- 新媒体内容分析
+- 数据整理与信息表达
+- 数字化工具应用
+
+## 项目与课程实践
+
+### 1. GitHub 个人主页搭建
+基于 GitHub Pages 搭建个人主页，并对网页内容进行个性化修改与发布。这项实践让我初步了解了网页发布、页面配置和在线修改的基本流程。
+
+### 2. 课程学习与综合训练
+在平时的课程学习中，我积极参与与新媒体、信息表达、资料整理和数字实践相关的学习任务，不断提升自己的表达、整理和实践能力。
+
+## 联系方式
+
+- GitHub：[@huhongmiao671](https://github.com/huhongmiao671)
+- 邮箱：241051023@smail.nju.edu.cn

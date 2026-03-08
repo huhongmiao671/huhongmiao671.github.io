@@ -2,7 +2,7 @@
 permalink: /
 title: "胡鸿淼的个人主页"
 excerpt: "关于我"
-author_profile: false
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html

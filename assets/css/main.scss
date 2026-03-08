@@ -43,3 +43,81 @@
 .author__avatar {
   display: none !important;
 }
+
+body {
+  background-color: #f7f9fc;
+  color: #2f3640;
+}
+
+.masthead {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbe3ec;
+}
+
+.masthead__menu-item a,
+.greedy-nav a,
+.site-title,
+.site-subtitle {
+  color: #4f6d8a !important;
+}
+
+.masthead__menu-item a:hover,
+.greedy-nav a:hover {
+  color: #2f5d8a !important;
+}
+
+.page__title,
+.archive__item-title,
+.author__name {
+  color: #2f4f6f !important;
+}
+
+.author__bio {
+  color: #5d6d7e !important;
+}
+
+.author__urls li,
+.author__urls a {
+  color: #4f5b66 !important;
+}
+
+.author__urls a:hover {
+  color: #2f5d8a !important;
+}
+
+.page {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.page__content {
+  background-color: #ffffff;
+}
+
+.sidebar {
+  background-color: #eef3f8;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.author__urls i,
+.author__urls .fa,
+.author__urls .fab,
+.author__urls .fas {
+  color: #4f6d8a !important;
+}
+
+a {
+  color: #3f6ea5;
+}
+
+a:hover {
+  color: #2c4f77;
+}
+
+hr,
+.page__meta,
+.archive__item-excerpt {
+  color: #6b7280;
+}

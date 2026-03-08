@@ -15,6 +15,12 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  {% if page.permalink == "/" %}
+<div style="width: 100%; margin: 0 0 40px 0;">
+  <img src="{{ '/images/banner.png' | relative_url }}" alt="顶部横幅"
+       style="display: block; width: 100%; height: 360px; object-fit: cover;">
+</div>
+{% endif %}
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">

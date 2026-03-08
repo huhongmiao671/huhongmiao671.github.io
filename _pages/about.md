@@ -7,9 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div style="margin-bottom: 24px;">
-  <img src="{{ '/images/banner.png' | relative_url }}" alt="顶部横幅" style="width: 100%; height: 260px; object-fit: cover; border-radius: 8px;">
-</div>
  
 
 大家好，我是胡鸿淼，目前是一名本科生。

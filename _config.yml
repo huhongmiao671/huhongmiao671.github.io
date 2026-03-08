@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "SocratesClub / Homepage"
+locale                   : "zh-CN"
+title                    : "胡鸿淼的个人主页"
 title_separator          : "-"
-name                     : "SocratesClub"
-description              : "We are a small social science lab focusing on computational social science!"
-url                      : https://socratesgroup.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "胡鸿淼"
+description              : "南京大学在读本科生，新闻传播与信息管理与信息系统双学位"
+url                      : https://huhongmiao671.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "socratesgroup.github.io"
+repository               : "huhongmiao671/huhongmiao671.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "SocratesClub"
+  name             : "胡鸿淼"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "本科生|关注新闻传播与信息管理"
+  location         : "南京"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "241051023@smail.nju.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "socratesclub"
+  github           : "huhongmiao671"
   google_plus      :
   keybase          :
   instagram        :

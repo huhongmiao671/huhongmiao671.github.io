@@ -14,10 +14,10 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-         {% if page.permalink == "/" or page.permalink == "/projects/" or page.permalink == "/interests/" %}
+{% if page.url == "/" or page.url == "/projects/" or page.url == "/interests/" %}
 <div style="width: 100%; margin: 0 0 40px 0;">
   <img src="{{ '/images/banner.png' | relative_url }}" alt="顶部横幅"
-       style="display: block; width: 100%; height: 360px; object-fit: cover; filter: saturate(1.05) contrast(1.02);"
+       style="display: block; width: 100%; height: 360px; object-fit: cover; filter: saturate(1.05) contrast(1.02);">
 </div>
 {% endif %}
     {% include masthead.html %}

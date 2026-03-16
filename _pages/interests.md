@@ -15,23 +15,23 @@ author_profile: true
       <h3>睡觉</h3>
       <p>我爱睡觉，睡觉爱不爱我不知道，</p>
       <p>但床大概率是我最稳定的精神港湾。</p>
-      <p>对我来说，睡好觉不是小事，而是第二天能不能体面做人这件大事。</p>
+      <p>在忙碌生活里，睡个好觉，就是最朴素也最有效的回血方式。</p>
     </div>
   </div>
 
-  <div class="interest-card sleep-card">
+  <div class="interest-card food-card">
     <div class="interest-image">
       <img src="{{ '/images/interest2.jpg' | relative_url }}" alt="美食">
     </div>
     <div class="interest-text">
       <h3>美食</h3>
-      <p>别人吃饭是为了活着，而我活着是为了吃饭。</p>
-      <p>认真吃饭不是简单填饱肚子，而是通过美食使自己快乐。</p>
-      <p>从某种程度上说，我也小有厨艺，虽然色香味俱不全。</p>
+      <p>别人用美食治愈生活，我用美食直接和生活和解。</p>
+      <p>认真吃饭不是简单填饱肚子，</p>
+      <p>而是在一日三餐里，给自己一点很具体、很踏实的快乐。</p>
     </div>
   </div>
 
-  <div class="interest-card food-card">
+  <div class="interest-card novel-card">
     <div class="interest-image">
       <img src="{{ '/images/interest3.jpg' | relative_url }}" alt="小说">
     </div>
@@ -43,7 +43,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="interest-card novel-card">
+  <div class="interest-card scenery-card">
     <div class="interest-image">
       <img src="{{ '/images/interest4.jpg' | relative_url }}" alt="风景">
     </div>

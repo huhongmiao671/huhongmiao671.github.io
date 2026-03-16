@@ -292,7 +292,7 @@ hr,
     border-color: transparent #f7fbff transparent transparent;
   }
 
- /* ===== 兴趣爱好页面 ===== */
+/* ===== 兴趣爱好页面 ===== */
 .interest-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -322,6 +322,7 @@ hr,
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  border-right: 2px solid rgba(0, 0, 0, 0.06);
 }
 
 .interest-image img {
@@ -439,6 +440,8 @@ hr,
   .interest-image {
     min-width: 100%;
     height: 220px;
+    border-right: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.06);
   }
 
   .interest-text {

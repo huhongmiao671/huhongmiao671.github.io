@@ -33,7 +33,7 @@ author_profile: true
 
   <div style="display:flex;background:#faf7ff;border:2px solid #ddd2f2;border-radius:18px;overflow:hidden;min-height:280px;box-shadow:0 10px 24px rgba(50,80,120,0.10);">
     <div style="width:36%;min-width:180px;background:#f0eaff;border-right:2px solid rgba(0,0,0,0.06);">
-      <img src="{{ '/images/interest3.jpg' | relative_url }}" alt="小说" style="width:100%;height:100%;object-fit:cover;display:block;">
+      <img src="{{ '/images/interest3.jpg' | relative_url }}" alt="阅读" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
     <div style="width:64%;padding:26px 28px;display:flex;flex-direction:column;justify-content:center;">
       <h3 style="margin-top:0;margin-bottom:16px;font-size:30px;font-weight:800;color:#6a5692;">小说</h3>

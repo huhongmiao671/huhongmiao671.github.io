@@ -121,3 +121,178 @@ hr,
 .archive__item-excerpt {
   color: #6b7280;
 }
+
+
+/* ===== 项目时间轴样式 ===== */
+.project-timeline {
+  position: relative;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px 0 40px 0;
+}
+
+.project-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background: #d7dee8;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-node {
+  position: absolute;
+  top: 30px;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  border-radius: 50%;
+  background: #5b8cc0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.timeline-item.left .timeline-node {
+  right: -27px;
+}
+
+.timeline-item.right .timeline-node {
+  left: -27px;
+}
+
+.timeline-card {
+  position: relative;
+  background: #f7fbff;
+  border-radius: 14px;
+  padding: 20px 22px;
+  box-shadow: 0 6px 18px rgba(50, 80, 120, 0.08);
+  border: 1px solid #e3ebf3;
+}
+
+.timeline-item.right .timeline-card {
+  background: #f5fff6;
+  border: 1px solid #dcefdc;
+}
+
+.timeline-item.left .timeline-card::after,
+.timeline-item.right .timeline-card::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline-item.left .timeline-card::after {
+  right: -14px;
+  border-width: 10px 0 10px 14px;
+  border-color: transparent transparent transparent #f7fbff;
+}
+
+.timeline-item.right .timeline-card::after {
+  left: -14px;
+  border-width: 10px 14px 10px 0;
+  border-color: transparent #f5fff6 transparent transparent;
+}
+
+.timeline-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #2f4f6f;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.timeline-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #2f4f6f;
+  font-size: 22px;
+}
+
+.timeline-card p {
+  margin: 10px 0;
+  line-height: 1.8;
+}
+
+.timeline-meta {
+  font-size: 15px;
+  color: #5d6d7e;
+  margin-bottom: 10px;
+}
+
+.timeline-card img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 14px;
+  border-radius: 10px;
+}
+
+.timeline-highlight {
+  border: 2px solid #9ec3e6;
+}
+
+.timeline-item.right .timeline-highlight {
+  border: 2px solid #a9d8a9;
+}
+
+/* 手机端适配 */
+@media screen and (max-width: 900px) {
+  .project-timeline::before {
+    left: 26px;
+    transform: none;
+  }
+
+  .timeline-item,
+  .timeline-item.left,
+  .timeline-item.right {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: 20px 20px 20px 70px;
+  }
+
+  .timeline-node,
+  .timeline-item.left .timeline-node,
+  .timeline-item.right .timeline-node {
+    left: 0;
+    right: auto;
+  }
+
+  .timeline-item.left .timeline-card::after,
+  .timeline-item.right .timeline-card::after {
+    left: -14px;
+    right: auto;
+    border-width: 10px 14px 10px 0;
+    border-color: transparent #f7fbff transparent transparent;
+  }
+
+  .timeline-item.right .timeline-card::after {
+    border-color: transparent #f5fff6 transparent transparent;
+  }
+}

@@ -7,7 +7,7 @@ author_profile: true
 
 <div class="interest-grid">
 
-  <div class="interest-card">
+  <div class="interest-card sleep-card">
     <div class="interest-image">
       <img src="{{ '/images/interest1.jpg' | relative_url }}" alt="睡觉">
     </div>
@@ -19,7 +19,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="interest-card">
+  <div class="interest-card sleep-card">
     <div class="interest-image">
       <img src="{{ '/images/interest2.jpg' | relative_url }}" alt="美食">
     </div>
@@ -31,7 +31,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="interest-card">
+  <div class="interest-card food-card">
     <div class="interest-image">
       <img src="{{ '/images/interest3.jpg' | relative_url }}" alt="小说">
     </div>
@@ -43,7 +43,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="interest-card">
+  <div class="interest-card novel-card">
     <div class="interest-image">
       <img src="{{ '/images/interest4.jpg' | relative_url }}" alt="风景">
     </div>

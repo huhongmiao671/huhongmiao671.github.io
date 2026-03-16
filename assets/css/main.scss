@@ -292,32 +292,36 @@ hr,
     border-color: transparent #f7fbff transparent transparent;
   }
 
-  /* ===== 兴趣爱好页面 ===== */
+ /* ===== 兴趣爱好页面 ===== */
 .interest-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 28px;
+  gap: 30px;
   margin-top: 30px;
 }
 
 .interest-card {
   display: flex;
   align-items: stretch;
-  background: #fcfdff;
-  border: 2px solid #cfe0f2;
-  border-radius: 16px;
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 6px 18px rgba(50, 80, 120, 0.08);
-  min-height: 260px;
+  min-height: 280px;
+  box-shadow: 0 10px 24px rgba(50, 80, 120, 0.10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.interest-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(50, 80, 120, 0.14);
 }
 
 .interest-image {
-  width: 34%;
-  min-width: 160px;
-  background: #f3f8fd;
+  width: 36%;
+  min-width: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .interest-image img {
@@ -327,8 +331,8 @@ hr,
 }
 
 .interest-text {
-  width: 66%;
-  padding: 24px 26px;
+  width: 64%;
+  padding: 26px 28px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -337,15 +341,84 @@ hr,
 .interest-text h3 {
   margin-top: 0;
   margin-bottom: 16px;
-  color: #2f4f6f;
-  font-size: 28px;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
 }
 
 .interest-text p {
   margin: 8px 0;
   line-height: 1.9;
-  color: #3f4a56;
   font-size: 17px;
+}
+
+/* 四个模块分别配色 */
+.sleep-card {
+  background: #f8fbff;
+  border: 2px solid #cfe0f2;
+}
+
+.sleep-card .interest-image {
+  background: #eaf3fb;
+}
+
+.sleep-card .interest-text h3 {
+  color: #4b6b8a;
+}
+
+.sleep-card .interest-text p {
+  color: #435160;
+}
+
+.food-card {
+  background: #fffaf3;
+  border: 2px solid #f1dcc0;
+}
+
+.food-card .interest-image {
+  background: #fff1dc;
+}
+
+.food-card .interest-text h3 {
+  color: #9a6632;
+}
+
+.food-card .interest-text p {
+  color: #5b4a39;
+}
+
+.novel-card {
+  background: #faf7ff;
+  border: 2px solid #ddd2f2;
+}
+
+.novel-card .interest-image {
+  background: #f0eaff;
+}
+
+.novel-card .interest-text h3 {
+  color: #6a5692;
+}
+
+.novel-card .interest-text p {
+  color: #4e455f;
+}
+
+.scenery-card {
+  background: #f6fcf7;
+  border: 2px solid #cfe7d2;
+}
+
+.scenery-card .interest-image {
+  background: #eaf7ec;
+}
+
+.scenery-card .interest-text h3 {
+  color: #4e7b58;
+}
+
+.scenery-card .interest-text p {
+  color: #445447;
 }
 
 @media screen and (max-width: 900px) {
@@ -355,6 +428,7 @@ hr,
 
   .interest-card {
     flex-direction: column;
+    min-height: auto;
   }
 
   .interest-image,
@@ -366,9 +440,12 @@ hr,
     min-width: 100%;
     height: 220px;
   }
-}
 
-  .timeline-item.right .timeline-card::after {
-    border-color: transparent #f5fff6 transparent transparent;
+  .interest-text {
+    padding: 22px;
+  }
+
+  .interest-text h3 {
+    font-size: 26px;
   }
 }

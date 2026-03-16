@@ -36,7 +36,7 @@ author_profile: true
       <img src="{{ '/images/interest3.jpg' | relative_url }}" alt="阅读" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
     <div style="width:64%;padding:26px 28px;display:flex;flex-direction:column;justify-content:center;">
-      <h3 style="margin-top:0;margin-bottom:16px;font-size:30px;font-weight:800;color:#6a5692;">小说</h3>
+      <h3 style="margin-top:0;margin-bottom:16px;font-size:30px;font-weight:800;color:#6a5692;">阅读</h3>
       <p style="margin:8px 0;line-height:1.9;font-size:17px;color:#4e455f;">多样人生，不一定都要亲自经历，书里也能先走一遍。</p>
       <p style="margin:8px 0;line-height:1.9;font-size:17px;color:#4e455f;">我喜欢在文字的世界里来回穿梭，</p>
       <p style="margin:8px 0;line-height:1.9;font-size:17px;color:#4e455f;">一边围观别人的故事，一边悄悄扩充自己的想象力和感受力。</p>

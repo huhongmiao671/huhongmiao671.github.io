@@ -1,3 +1,9 @@
 main:
   - title: "关于我"
     url: /
+
+  - title: "课程项目 / 实践经历"
+    url: /projects/
+
+  - title: "兴趣爱好 / 个人特点"
+    url: /interests/
